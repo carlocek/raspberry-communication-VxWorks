@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was written by the JAVA GraphML Library.-->
+<graphml
+    xmlns="http://graphml.graphdrawing.org/xmlns/graphml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:y="http://www.yworks.com/xml/graphml">
+
+<key id="d0" for="node" yfiles.type="nodegraphics"/>
+<key id="d1" for="edge" yfiles.type="edgegraphics"/>
+<graph id="G" edgedefault="directed">
+
+<node id="0">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#FEDCBA"  transparent="false"/>"
+     <y:NodeLabel>"L0.S0: mem1 mem2
+  10 /= t0 /= 10   [n]
+  20 /= t7 /= 20   [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="0" target="1">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t0</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="1">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#987654"  transparent="false"/>"
+     <y:NodeLabel>"L0.S1: p0 mem1 mem2
+  10 /= t7 /= 10  
+   0 /= t1 /= 0    [n]
+  10 /= t0 /= 10   [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="1" target="2">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t1</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="2">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#3210FE"  transparent="false"/>"
+     <y:NodeLabel>"L0.S2: mem1 mem2 p1
+  10 /= t0 /= 10  
+  10 /= t7 /= 10  
+   0 /= t2 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="2" target="3">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t2</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="3">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#DCBA98"  transparent="false"/>"
+     <y:NodeLabel>"L0.S3: p2 mem2
+  10 /= t0 /= 10  
+  10 /= t7 /= 10  
+   1 /= t3 /= 2    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="3" target="4">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t3</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="4">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#765432"  transparent="false"/>"
+     <y:NodeLabel>"L0.S4: mem1 mem2 p3
+   8 /= t0 /= 9   
+   8 /= t7 /= 9   
+   0 /= t4 /= 0    [n]
+   0 /= t7-t0 /= 0    
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="4" target="5">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t4</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="5">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#10FEDC"  transparent="false"/>"
+     <y:NodeLabel>"L0.S5: p4 mem1 mem2
+   8 /= t0 /= 9   
+   8 /= t7 /= 9   
+   0 /= t5 /= 0    [n]
+   0 /= t7-t0 /= 0    
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="5" target="6">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t5</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="6">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#BA9876"  transparent="false"/>"
+     <y:NodeLabel>"L0.S6: p5 mem1
+   8 /= t0 /= 9   
+   8 /= t7 /= 9   
+   1 /= t6 /= 2    [n]
+   0 /= t7-t0 /= 0    
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="6" target="7">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t6</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="7">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#FEDCBA"  transparent="false"/>"
+     <y:NodeLabel>"L0.S7: mem1 mem2
+   6 /= t0 /= 8   
+   6 /= t7 /= 8   
+   0 /= t7-t0 /= 0    
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="7" target="8">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t0</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<edge  source="7" target="9">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t7</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="8">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#987654"  transparent="false"/>"
+     <y:NodeLabel>"L0.S8: p0 mem1 mem2
+   0 /= t7 /= 0   
+   0 /= t1 /= 0    [n]
+  10 /= t0 /= 10   [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="8" target="10">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t7</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<edge  source="8" target="11">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t1</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="9">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#543210"  transparent="false"/>"
+     <y:NodeLabel>"L0.S9: p7 mem1 mem2
+   0 /= t0 /= 0   
+   0 /= t8 /= 0    [n]
+  20 /= t7 /= 20   [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="9" target="12">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t0</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<edge  source="9" target="13">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t8</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="10">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#FEDCBA"  transparent="false"/>"
+     <y:NodeLabel>"L0.S10: p0 p7 mem1 mem2
+   0 /= t1 /= 0   
+  10 /= t0 /= 10  
+  20 /= t7 /= 20   [n]
+(    0 /= t8 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="10" target="14">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t1</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="11">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#3210FE"  transparent="false"/>"
+     <y:NodeLabel>"L0.S11: mem1 mem2 p1
+  10 /= t0 /= 10  
+   0 /= t7 /= 0   
+   0 /= t2 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="11" target="15">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t7</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<edge  source="11" target="16">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t2</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="12">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#FEDCBA"  transparent="false"/>"
+     <y:NodeLabel>"L0.S12: p0 p7 mem1 mem2
+  20 /= t7 /= 20  
+   0 /= t1 /= 0    [n]
+  10 /= t0 /= 10   [n]
+(    0 /= t8 /= 0   )
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="12" target="14">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t1</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="13">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#987654"  transparent="false"/>"
+     <y:NodeLabel>"L0.S13: mem1 mem2 p8
+   0 /= t0 /= 0   
+  20 /= t7 /= 20  
+   0 /= t9 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="13" target="17">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t0</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<edge  source="13" target="18">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t9</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="14">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#3210FE"  transparent="false"/>"
+     <y:NodeLabel>"L0.S14: p7 mem1 mem2 p1
+  10 /= t0 /= 10  
+  20 /= t7 /= 20  
+   0 /= t2 /= 0    [n]
+(    0 /= t8 /= 0   )
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="14" target="19">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t2</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="15">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#3210FE"  transparent="false"/>"
+     <y:NodeLabel>"L0.S15: p7 mem1 mem2 p1
+   0 /= t2 /= 0   
+  10 /= t0 /= 10  
+  20 /= t7 /= 20   [n]
+(    0 /= t8 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="15" target="19">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t2</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="16">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#DCBA98"  transparent="false"/>"
+     <y:NodeLabel>"L0.S16: p2 mem2
+  10 /= t0 /= 10  
+   0 /= t7 /= 0   
+   1 /= t3 /= 2    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="16" target="20">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t7</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="17">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#DCBA98"  transparent="false"/>"
+     <y:NodeLabel>"L0.S17: p0 mem1 mem2 p8
+   0 /= t9 /= 0   
+  20 /= t7 /= 20  
+  10 /= t0 /= 10   [n]
+(    0 /= t1 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="17" target="21">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t9</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="18">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#765432"  transparent="false"/>"
+     <y:NodeLabel>"L0.S18: mem2 p9
+   0 /= t0 /= 0   
+  20 /= t7 /= 20  
+   0 /= t10 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="18" target="22">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t0</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<edge  source="18" target="23">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t10</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="19">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#10FEDC"  transparent="false"/>"
+     <y:NodeLabel>"L0.S19: p2 p7 mem2
+  10 /= t0 /= 10  
+  20 /= t7 /= 20  
+   1 /= t3 /= 2    [n]
+(    0 /= t8 /= 0   )
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="19" target="24">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t3</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="20">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#10FEDC"  transparent="false"/>"
+     <y:NodeLabel>"L0.S20: p2 p7 mem2
+   1 /= t3 /= 2   
+  10 /= t0 /= 10  
+  20 /= t7 /= 20   [n]
+(    0 /= t8 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="20" target="24">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t3</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="21">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#BA9876"  transparent="false"/>"
+     <y:NodeLabel>"L0.S21: p0 mem2 p9
+   0 /= t1 /= 0   
+  10 /= t0 /= 10  
+  20 /= t7 /= 20  
+(    0 /= t10 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="21" target="25">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t1</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="22">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#BA9876"  transparent="false"/>"
+     <y:NodeLabel>"L0.S22: p0 mem2 p9
+  20 /= t7 /= 20  
+   0 /= t1 /= 0    [n]
+  10 /= t0 /= 10   [n]
+(    0 /= t10 /= 0   )
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="22" target="25">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t1</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="23">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#543210"  transparent="false"/>"
+     <y:NodeLabel>"L0.S23: p10
+   0 /= t0 /= 0   
+  20 /= t7 /= 20  
+   1 /= t11 /= 2    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="23" target="26">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t0</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="24">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#FEDCBA"  transparent="false"/>"
+     <y:NodeLabel>"L0.S24: p7 mem1 mem2 p3
+   8 /= t0 /= 9   
+  18 /= t7 /= 19  
+   0 /= t4 /= 0    [n]
+(    0 /= t8 /= 0   )
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="24" target="27">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t4</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="25">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#987654"  transparent="false"/>"
+     <y:NodeLabel>"L0.S25: mem2 p1 p9
+   0 /= t10 /= 0   
+  10 /= t0 /= 10  
+  20 /= t7 /= 20  
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="25" target="28">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t10</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="26">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#3210FE"  transparent="false"/>"
+     <y:NodeLabel>"L0.S26: p0 p10
+   1 /= t11 /= 2   
+  20 /= t7 /= 20  
+  10 /= t0 /= 10   [n]
+(    0 /= t1 /= 0    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="26" target="29">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t11</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="27">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#DCBA98"  transparent="false"/>"
+     <y:NodeLabel>"L0.S27: p4 p7 mem1 mem2
+   8 /= t0 /= 9   
+  18 /= t7 /= 19  
+   0 /= t5 /= 0    [n]
+(    0 /= t8 /= 0   )
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="27" target="30">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t5</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="28">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#765432"  transparent="false"/>"
+     <y:NodeLabel>"L0.S28: p10 p1
+  10 /= t0 /= 10  
+  20 /= t7 /= 20  
+   1 /= t11 /= 2    [n]
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="28" target="31">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t11</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="29">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#10FEDC"  transparent="false"/>"
+     <y:NodeLabel>"L0.S29: p0 p11
+   8 /= t0 /= 9   
+  18 /= t7 /= 19  
+   2 /= t12 /= 3    [n]
+(    0 /= t1 /= 0   )
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="29" target="32">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t12</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="30">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#BA9876"  transparent="false"/>"
+     <y:NodeLabel>"L0.S30: p5 p7 mem1
+   8 /= t0 /= 9   
+  18 /= t7 /= 19  
+   1 /= t6 /= 2    [n]
+(    0 /= t8 /= 0   )
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="30" target="33">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t6</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="31">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#543210"  transparent="false"/>"
+     <y:NodeLabel>"L0.S31: p11 p1
+   8 /= t0 /= 9   
+  18 /= t7 /= 19  
+   2 /= t12 /= 3    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="31" target="34">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t12</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="32">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#987654"  transparent="false"/>"
+     <y:NodeLabel>"L0.S32: p0 mem1 mem2
+   0 /= t1 /= 0   
+   5 /= t0 /= 7   
+  15 /= t7 /= 17  
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="32" target="34">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t1</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="33">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#543210"  transparent="false"/>"
+     <y:NodeLabel>"L0.S33: p7 mem1 mem2
+   0 /= t8 /= 0   
+   6 /= t0 /= 8   
+  16 /= t7 /= 18  
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="33" target="35">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t8</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="34">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#3210FE"  transparent="false"/>"
+     <y:NodeLabel>"L0.S34: mem1 mem2 p1
+   5 /= t0 /= 7   
+  15 /= t7 /= 17  
+   0 /= t2 /= 0    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="34" target="36">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t2</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="35">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#987654"  transparent="false"/>"
+     <y:NodeLabel>"L0.S35: mem1 mem2 p8
+   6 /= t0 /= 8   
+  16 /= t7 /= 18  
+   0 /= t9 /= 0    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="35" target="37">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t9</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="36">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#DCBA98"  transparent="false"/>"
+     <y:NodeLabel>"L0.S36: p2 mem2
+   5 /= t0 /= 7   
+  15 /= t7 /= 17  
+   1 /= t3 /= 2    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="36" target="38">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t3</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="37">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#765432"  transparent="false"/>"
+     <y:NodeLabel>"L0.S37: mem2 p9
+   6 /= t0 /= 8   
+  16 /= t7 /= 18  
+   0 /= t10 /= 0    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="37" target="39">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t10</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="38">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#765432"  transparent="false"/>"
+     <y:NodeLabel>"L0.S38: mem1 mem2 p3
+   3 /= t0 /= 6   
+  13 /= t7 /= 16  
+   0 /= t4 /= 0    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="38" target="40">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t4</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="39">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#543210"  transparent="false"/>"
+     <y:NodeLabel>"L0.S39: p10
+   6 /= t0 /= 8   
+  16 /= t7 /= 18  
+   1 /= t11 /= 2    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="39" target="41">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t11</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="40">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#10FEDC"  transparent="false"/>"
+     <y:NodeLabel>"L0.S40: p4 mem1 mem2
+   3 /= t0 /= 6   
+  13 /= t7 /= 16  
+   0 /= t5 /= 0    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="40" target="42">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t5</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="41">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#FEDCBA"  transparent="false"/>"
+     <y:NodeLabel>"L0.S41: p11
+   4 /= t0 /= 7   
+  14 /= t7 /= 17  
+   2 /= t12 /= 3    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="41" target="43">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t12</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="42">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#BA9876"  transparent="false"/>"
+     <y:NodeLabel>"L0.S42: p5 mem1
+   3 /= t0 /= 6   
+  13 /= t7 /= 16  
+   1 /= t6 /= 2    [n]
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="42" target="43">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t6</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+<node id="43">
+     <data key="d0" >
+     <y:ShapeNode>
+     <y:Fill color="#FEDCBA"  transparent="false"/>"
+     <y:NodeLabel>"L0.S43: mem1 mem2
+   1 /= t0 /= 5   
+  11 /= t7 /= 15  
+  10 /= t7-t0 /= 10   
+"</y:NodeLabel>
+     </y:ShapeNode>
+     </data>
+</node>
+<edge  source="43" target="1">
+     <data key="d1" >
+     <y:PolyLineEdge>
+     <y:Arrows source="none" target="standard"/>
+     <y:EdgeLabel>t0</y:EdgeLabel>
+     </y:PolyLineEdge>
+     </data>
+</edge>
+
+</graph> </graphml>

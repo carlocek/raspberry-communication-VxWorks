@@ -1,0 +1,2 @@
+
+LOG NUMBER 0 (log_app1.txt): All markings are feasible , 107 correct firings, absoluteTime = 114

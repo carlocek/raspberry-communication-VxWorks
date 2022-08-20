@@ -1,0 +1,2 @@
+
+LOG NUMBER 0 (log_app1.txt): No deadline has been missed, 107 correct firings, absoluteTime = 114

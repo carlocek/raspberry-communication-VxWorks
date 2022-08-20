@@ -1,0 +1,1029 @@
+<?xml version="1.0"  encoding="ISO-8859-1" ?>
+<!--
+Automatically created by TimePetriNet StateSpaceExplorer
+-->
+<!DOCTYPE Grafo SYSTEM "TPN_graph.dtd">
+<?xml-stylesheet type="text/xsl" href="TPN_graph.xsl"?>
+<Grafo name="anonymous" level="1" state="101">
+<not_explored_state>
+</not_explored_state>
+ <class level="0" id="0" >
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="Yes" class_dest="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="Yes" class_dest="2"/>
+ </class>
+ <class level="0" id="1" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="3"/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="4"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+ </class>
+ <class level="0" id="2" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="5"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="6"/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+ </class>
+ <class level="0" id="3" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="7"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="4" >
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="8"/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="9"/>
+ </class>
+ <class level="0" id="5" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="7"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="6" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="10"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="6" name="t6" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="11"/>
+ </class>
+ <class level="0" id="7" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="12"/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="8" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="1" name="t2" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="12"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="9" >
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="13"/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+ </class>
+ <class level="0" id="10" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="14"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="11" >
+   <place id="7" name="p6" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="15"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="7" name="t7" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+ </class>
+ <class level="0" id="12" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="16"/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="13" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="11" name="t3" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="16"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="14" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="17"/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="15" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="7" name="p6" tokens="1"/>
+   <transx id="7" name="t7" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="18"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="16" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="5" name="t5" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="19"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT="   0" LFT="   0"/>
+ </class>
+ <class level="0" id="17" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="19"/>
+ </class>
+ <class level="0" id="18" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="20"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT="   0" LFT="   0"/>
+ </class>
+ <class level="0" id="19" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="6" name="t6" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="21"/>
+   <binding idtrans1="10" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT="   0" LFT="   0"/>
+ </class>
+ <class level="0" id="20" >
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="22"/>
+   <binding idtrans1="10" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT="   0" LFT="   0"/>
+ </class>
+ <class level="0" id="21" >
+   <place id="7" name="p6" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="7" name="t7" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="23"/>
+   <binding idtrans1="10" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT="   0" LFT="   0"/>
+ </class>
+ <class level="0" id="22" >
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="23"/>
+   <binding idtrans1="10" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT="   0" LFT="   0"/>
+ </class>
+ <class level="0" id="23" >
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="Yes" class_dest="24"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="Yes" class_dest="25"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="Yes" class_dest="26"/>
+   <binding idtrans1="10" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT="   0" LFT="   0"/>
+ </class>
+ <class level="0" id="24" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="27"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="28"/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="29"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+ </class>
+ <class level="0" id="25" >
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="30"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="31"/>
+   <transx id="2" name="t9" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="32"/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+ </class>
+ <class level="0" id="26" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="33"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="34"/>
+   <transx id="5" name="t5" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="35"/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+ </class>
+ <class level="0" id="27" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="36"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="37"/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="28" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="38"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="39"/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="29" >
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="40"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="41"/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="42"/>
+ </class>
+ <class level="0" id="30" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="37"/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="36"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="31" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="43"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="5" name="t5" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="44"/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="32" >
+   <place id="2" name="p9" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="45"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="46"/>
+   <transx id="3" name="t10" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="47"/>
+ </class>
+ <class level="0" id="33" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="39"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="38"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="34" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="5" name="t5" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="44"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="43"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="35" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="48"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="49"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="6" name="t6" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="50"/>
+ </class>
+ <class level="0" id="36" >
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="51"/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="52"/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="37" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="53"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="38" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="54"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="55"/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="39" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="53"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="40" >
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="1" name="t2" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="52"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="51"/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="41" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="1" name="t2" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="55"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="54"/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="42" >
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="56"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="57"/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+ </class>
+ <class level="0" id="43" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="53"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="44" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="58"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="6" name="t6" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="59"/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="45" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="2" name="p9" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="3" name="t10" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="60"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="61"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="46" >
+   <place id="2" name="p9" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="3" name="t10" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="62"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="63"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="47" >
+   <place id="3" name="p10" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="64"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="65"/>
+   <transx id="4" name="t11" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+ </class>
+ <class level="0" id="48" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="66"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="67"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="49" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="6" name="t6" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="59"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="58"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="50" >
+   <place id="7" name="p6" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="68"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="69"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="7" name="t7" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+ </class>
+ <class level="0" id="51" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="1" name="t2" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="70"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="52" >
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="71"/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="53" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="70"/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="54" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="1" name="t2" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="70"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="55" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="72"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="56" >
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="11" name="t3" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="71"/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="57" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="11" name="t3" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="72"/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="58" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="73"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="59" >
+   <place id="7" name="p6" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="74"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="7" name="t7" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="60" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="3" name="p10" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="75"/>
+   <transx id="4" name="t11" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="61" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="2" name="p9" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="3" name="t10" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="76"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="62" >
+   <place id="3" name="p10" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="77"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="4" name="t11" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="63" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="2" name="p9" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="3" name="t10" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="76"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="64" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="3" name="p10" tokens="1"/>
+   <transx id="4" name="t11" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="75"/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="65" >
+   <place id="3" name="p10" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <transx id="4" name="t11" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="77"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="66" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="73"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="67" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="78"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="79"/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="68" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="7" name="p6" tokens="1"/>
+   <transx id="7" name="t7" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="80"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="69" >
+   <place id="7" name="p6" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="7" name="t7" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="74"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="70" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="81"/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="71" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="11" name="t3" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="81"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="72" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="11" name="t3" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="81"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="73" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="82"/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="74" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="7" name="p6" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="7" name="t7" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="83"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="75" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="3" name="p10" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <transx id="4" name="t11" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="84"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="76" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="3" name="p10" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="4" name="t11" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="84"/>
+   <transx id="9" name="t1" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="77" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="3" name="p10" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <transx id="4" name="t11" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="84"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="0" name="t0" Progr="Yes" New="Yes" EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="78" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="1" name="t2" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="82"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="6" name="t6" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="79" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="85"/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="No "/>
+ </class>
+ <class level="0" id="80" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="7" name="p6" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="7" name="t7" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="83"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+   <transx id="9" name="t1" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="81" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="5" name="t5" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="86"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="82" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="86"/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="83" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="87"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="84" >
+   <place id="0" name="p0" tokens="1"/>
+   <place id="5" name="p4" tokens="1"/>
+   <place id="12" name="p11" tokens="1"/>
+   <transx id="9" name="t1" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="88"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="13" name="t12" Progr="No " New="Yes" EFT="   2" LFT="   3" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="85" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="11" name="t3" Progr="Yes" New="No " EFT="   1" LFT="   2" Fir="Yes" class_dest="86"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="  10" LFT="  10" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="Yes" EFT="  20" LFT="  20" Fir="No "/>
+   <transx id="2" name="t9" Progr="No " New="Yes" EFT="   0" LFT="   0" Fir="No "/>
+ </class>
+ <class level="0" id="86" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="6" name="t6" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="89"/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="87" >
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="90"/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="88" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="12" name="p11" tokens="1"/>
+   <transx id="13" name="t12" Progr="Yes" New="No " EFT="   2" LFT="   3" Fir="Yes" class_dest="91"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="89" >
+   <place id="7" name="p6" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="7" name="t7" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="92"/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="90" >
+   <place id="1" name="p8" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  18" LFT="  19" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   8" LFT="   9" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="92"/>
+   <transx id="2" name="t9" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="91" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="4" name="p1" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   5" LFT="   7" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  15" LFT="  17" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   5" LFT="   7" Fir="No "/>
+   <transx id="1" name="t2" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="93"/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="92" >
+   <place id="8" name="mem" tokens="1"/>
+   <place id="1" name="p8" tokens="1"/>
+   <transx id="2" name="t9" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="94"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  16" LFT="  18" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="93" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="10" name="p2" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   5" LFT="   7" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  15" LFT="  17" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   5" LFT="   7" Fir="No "/>
+   <transx id="11" name="t3" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="95"/>
+   <transx id="5" name="t5" Progr="No " New="No " EFT="   0" LFT="   0" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="94" >
+   <place id="2" name="p9" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  16" LFT="  18" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="No "/>
+   <transx id="3" name="t10" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="96"/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="95" >
+   <place id="5" name="p4" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="5" name="t5" Progr="Yes" New="No " EFT="   0" LFT="   0" Fir="Yes" class_dest="97"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   3" LFT="   6" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  13" LFT="  16" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   3" LFT="   6" Fir="No "/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="96" >
+   <place id="3" name="p10" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  16" LFT="  18" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   6" LFT="   8" Fir="No "/>
+   <transx id="4" name="t11" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="98"/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="97" >
+   <place id="6" name="p5" tokens="1"/>
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   3" LFT="   6" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  13" LFT="  16" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   3" LFT="   6" Fir="No "/>
+   <transx id="6" name="t6" Progr="Yes" New="Yes" EFT="   0" LFT="   0" Fir="Yes" class_dest="99"/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="98" >
+   <place id="12" name="p11" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   4" LFT="   7" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  14" LFT="  17" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   4" LFT="   7" Fir="No "/>
+   <transx id="13" name="t12" Progr="Yes" New="Yes" EFT="   2" LFT="   3" Fir="Yes" class_dest="100"/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="99" >
+   <place id="7" name="p6" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   3" LFT="   6" Fir="No "/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  13" LFT="  16" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   3" LFT="   6" Fir="No "/>
+   <transx id="7" name="t7" Progr="Yes" New="Yes" EFT="   1" LFT="   2" Fir="Yes" class_dest="100"/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+ <class level="0" id="100" >
+   <place id="8" name="mem" tokens="1"/>
+   <transx id="0" name="t0" Progr="Yes" New="No " EFT="   1" LFT="   5" Fir="Yes" class_dest="1"/>
+   <transx id="10" name="t8" Progr="Yes" New="No " EFT="  11" LFT="  15" Fir="No "/>
+   <transx id="14" name="t4" Progr="Yes" New="No " EFT="   1" LFT="   5" Fir="Yes" class_dest="2"/>
+   <binding idtrans1="10" idtrans2="0" EFT="  10" LFT="  10"/>
+   <binding idtrans1="14" idtrans2="0" EFT="   0" LFT="   0"/>
+   <binding idtrans1="14" idtrans2="10" EFT=" -10" LFT=" -10"/>
+ </class>
+</Grafo>

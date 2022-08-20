@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PETRISIMULATOR version="1">
+  <INPUT type="51" path="/File Importer Box/task_set_def_app1.txt" date="1655591295069" />
+  <INPUT type="50" path="/File Importer Box/log_app1.txt" date="1655590632296" />
+  <INPUT type="3" path="/TCAnalyzer/output.xml" date="1655589165867" />
+  <INPUT type="1" path="/App1 PetriEditor/App1 PetriEditor.pef.xml" date="1655589059795" />
+  <INPUT type="9823" path="/TCAnalyzer/output.graphml" date="1655589165867" />
+  <INPUT type="9823" path="/TCAnalyzer/output.txt" date="1655589165867" />
+  <OUTPUT type="777" path="/ExecutionTimes.txt" date="1655731280010" />
+  <OUTPUT type="777" path="/ProfilingMeasure.txt" date="1655731280010" />
+  <OUTPUT type="777" path="/CoverageMeasure.txt" date="1655731280050" />
+  <OUTPUT type="777" path="/ResultsStatistics.txt" date="1655731280050" />
+  <OUTPUT type="777" path="/MarkingAnalysis.txt" date="1655731280050" />
+  <OUTPUT type="777" path="/ReleaseCompletionAnalysis.txt" date="1655731280050" />
+  <OUTPUT type="777" path="/TimingCoverage.txt" date="1655731280050" />
+</PETRISIMULATOR>
+

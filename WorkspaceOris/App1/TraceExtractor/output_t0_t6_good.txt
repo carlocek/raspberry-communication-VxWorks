@@ -1,0 +1,9 @@
+output.xml
+Trace#0[2,4] (s1, {t1,t2,t3,t4,t5,t6},s7)
+Trace#1[2,4] (s8, {t7,t1,t2,t3,t4,t5,t6},s33)
+Trace#2[2,4] (s8, {t1,t2,t7,t3,t4,t5,t6},s33)
+Trace#3[2,4] (s8, {t1,t7,t2,t3,t4,t5,t6},s33)
+Trace#4[2,4] (s12, {t1,t2,t3,t4,t5,t6},s33)
+Trace#5[5,9] (s17, {t9,t1,t10,t11,t12,t2,t3,t4,t5,t6},s43)
+Trace#6[5,9] (s22, {t1,t10,t11,t12,t2,t3,t4,t5,t6},s43)
+Trace#7[5,9] (s26, {t11,t12,t1,t2,t3,t4,t5,t6},s43)

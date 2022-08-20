@@ -1,0 +1,22 @@
+PROCESSES: 3
+process1TransitionsNumber: 4
+t0
+t1
+t2
+t3
+deadline: 10
+process2TransitionsNumber: 4
+t4
+t5
+t6
+t7
+deadline: 10
+process3TransitionsNumber: 5
+t8
+t9
+t10
+t11
+t12
+deadline: 20
+CONTROLLABLE_TRANSITIONS: 0
+ALIAS_IDENTIFIERS: 0

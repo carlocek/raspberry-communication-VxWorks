@@ -1,0 +1,32 @@
+
+LOG NUMBER 0 (log_app1.txt):
+  Execution sequence is feasible, after 107 correct firings, absoluteTime = 114
+
+  All-New-Enabling Coverage (LOG_NUMBER_0):
+	t0: 11
+	t1: 11
+	t2: 11
+	t3: 11
+	t4: 11
+	t5: 11
+	t6: 11
+	t7: 5
+	t8: 5
+	t9: 5
+	t10: 5
+	t11: 5
+	t12: 5
+
+  Controllable-Transitions-New-Enabling Coverage (LOG_NUMBER_0):
+
+  Process-Completion Coverage (LOG_NUMBER_0):
+	P0: 11
+	P1: 5
+
+  Marking Coverage (LOG_NUMBER_0): Infinity% markings covered 
+
+  Marking Graph Edge Coverage (LOG_NUMBER_0): Infinity% edges covered 
+
+  State Class Coverage (LOG_NUMBER_0): 40.909092% state classes covered 
+
+  State Class Graph Edge Coverage (LOG_NUMBER_0): 182.0% edges covered 

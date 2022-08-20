@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net name="C:\Documents and Settings\Administrator\Desktop\WorkspaceProgettoSEEScarlo\App1\App1 PetriEditor\App1 PetriEditor.pef.xml" type="PTPN" xmlns="http://www.dsi.unifi.it/PN1">
+    <resource id="r2" name="cpu"/>
+    <place id="p0" id_place="0" name="p0" tokens="0"/>
+    <place id="p1" id_place="1" name="p2" tokens="0"/>
+    <place id="p2" id_place="2" name="p4" tokens="0"/>
+    <place id="p3" id_place="3" name="p5" tokens="0"/>
+    <place id="p4" id_place="4" name="p7" tokens="0"/>
+    <place id="p5" id_place="5" name="p10" tokens="0"/>
+    <place id="p6" id_place="6" name="mem1" tokens="1"/>
+    <place id="p7" id_place="7" name="mem2" tokens="1"/>
+    <place id="p8" id_place="8" name="p11" tokens="0"/>
+    <place id="p9" id_place="9" name="p1" tokens="0"/>
+    <place id="p10" id_place="10" name="p3" tokens="0"/>
+    <place id="p11" id_place="11" name="p8" tokens="0"/>
+    <place id="p12" id_place="12" name="p9" tokens="0"/>
+    <transition id="t0" id_trans="0" name="t0" type="preempted" weight="1" priority="0">
+        <time EFT="10" LFT="10"/>
+    </transition>
+    <transition id="t1" id_trans="1" name="t2" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="0" LFT="0"/>
+    </transition>
+    <transition id="t2" id_trans="2" name="t3" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="1" LFT="2"/>
+    </transition>
+    <transition id="t3" id_trans="3" name="t5" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="0" LFT="0"/>
+    </transition>
+    <transition id="t4" id_trans="4" name="t6" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="1" LFT="2"/>
+    </transition>
+    <transition id="t5" id_trans="5" name="t7" type="preempted" weight="1" priority="0">
+        <time EFT="20" LFT="20"/>
+    </transition>
+    <transition id="t6" id_trans="6" name="t9" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="0" LFT="0"/>
+    </transition>
+    <transition id="t7" id_trans="7" name="t11" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="1" LFT="2"/>
+    </transition>
+    <transition id="t8" id_trans="8" name="t12" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="2" LFT="3"/>
+    </transition>
+    <transition id="t9" id_trans="9" name="t1" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="0" LFT="0"/>
+    </transition>
+    <transition id="t10" id_trans="10" name="t4" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="0" LFT="0"/>
+    </transition>
+    <transition id="t11" id_trans="11" name="t8" type="preempted" weight="1" priority="1">
+        <transition_resource ref="r2"/>
+        <time EFT="0" LFT="0"/>
+    </transition>
+    <transition id="t12" id_trans="12" name="t10" type="preempted" weight="1" priority="2">
+        <transition_resource ref="r2"/>
+        <time EFT="0" LFT="0"/>
+    </transition>
+    <arc id="a4" id_arc="4" weight="1" type="post" source="t0" destination="p0"/>
+    <arc id="a23" id_arc="23" weight="1" type="pre" source="p9" destination="t1"/>
+    <arc id="a14" id_arc="14" weight="1" type="pre" source="p6" destination="t1"/>
+    <arc id="a6" id_arc="6" weight="1" type="post" source="t1" destination="p1"/>
+    <arc id="a7" id_arc="7" weight="1" type="pre" source="p1" destination="t2"/>
+    <arc id="a8" id_arc="8" weight="1" type="post" source="t2" destination="p10"/>
+    <arc id="a15" id_arc="15" weight="1" type="post" source="t2" destination="p6"/>
+    <arc id="a9" id_arc="9" weight="1" type="pre" source="p2" destination="t3"/>
+    <arc id="a17" id_arc="17" weight="1" type="pre" source="p7" destination="t3"/>
+    <arc id="a10" id_arc="10" weight="1" type="post" source="t3" destination="p3"/>
+    <arc id="a11" id_arc="11" weight="1" type="pre" source="p3" destination="t4"/>
+    <arc id="a18" id_arc="18" weight="1" type="post" source="t4" destination="p7"/>
+    <arc id="a0" id_arc="0" weight="1" type="post" source="t5" destination="p4"/>
+    <arc id="a13" id_arc="13" weight="1" type="pre" source="p11" destination="t6"/>
+    <arc id="a16" id_arc="16" weight="1" type="pre" source="p6" destination="t6"/>
+    <arc id="a2" id_arc="2" weight="1" type="post" source="t6" destination="p12"/>
+    <arc id="a3" id_arc="3" weight="1" type="pre" source="p5" destination="t7"/>
+    <arc id="a20" id_arc="20" weight="1" type="post" source="t7" destination="p8"/>
+    <arc id="a21" id_arc="21" weight="1" type="pre" source="p8" destination="t8"/>
+    <arc id="a19" id_arc="19" weight="1" type="post" source="t8" destination="p7"/>
+    <arc id="a26" id_arc="26" weight="1" type="post" source="t8" destination="p6"/>
+    <arc id="a22" id_arc="22" weight="1" type="pre" source="p0" destination="t9"/>
+    <arc id="a5" id_arc="5" weight="1" type="post" source="t9" destination="p9"/>
+    <arc id="a24" id_arc="24" weight="1" type="pre" source="p10" destination="t10"/>
+    <arc id="a25" id_arc="25" weight="1" type="post" source="t10" destination="p2"/>
+    <arc id="a1" id_arc="1" weight="1" type="pre" source="p4" destination="t11"/>
+    <arc id="a12" id_arc="12" weight="1" type="post" source="t11" destination="p11"/>
+    <arc id="a27" id_arc="27" weight="1" type="pre" source="p12" destination="t12"/>
+    <arc id="a29" id_arc="29" weight="1" type="pre" source="p7" destination="t12"/>
+    <arc id="a28" id_arc="28" weight="1" type="post" source="t12" destination="p5"/>
+</net>

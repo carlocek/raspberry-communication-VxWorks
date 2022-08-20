@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ORIS - framework for editing/analysis/simulation of Time Petri Nets
+developed by Dipartimento di Sistemi e Informatica - University of
+Firenze
+- Italy
+G.Bucci, A.Fedeli, E.Vicario
+{bucci, fedeli, vicario}@dsi.unifi.it
+-->
+<!-- NET DATA -->
+<!ELEMENT net (resource*, place*, transition*, arc*, property*)>
+<!ATTLIST net
+	type (TPN | GSPN | XTPN) "TPN"
+	name CDATA #REQUIRED
+>
+
+<!ELEMENT resource EMPTY>
+<!ATTLIST resource
+	id ID #REQUIRED
+	name CDATA #REQUIRED
+	max CDATA #REQUIRED
+>
+<!-- posto -->
+<!ELEMENT place EMPTY>
+<!ATTLIST place
+	id ID #REQUIRED
+	id_place CDATA #REQUIRED
+	name CDATA #IMPLIED
+	tokens CDATA #REQUIRED
+>
+<!-- transizione -->
+<!ELEMENT transition (transition_resource*, time?, distribution?,
+property*, action?)>
+<!ATTLIST transition
+	id ID #REQUIRED
+	id_trans CDATA #REQUIRED
+	name CDATA #IMPLIED
+	type CDATA #REQUIRED
+	memory (PRS | PRI | PRD) #IMPLIED
+	priority CDATA #IMPLIED
+	exec_priority CDATA #IMPLIED
+	weight CDATA #IMPLIED
+>
+<!ELEMENT transition_resource EMPTY>
+<!ATTLIST transition_resource
+	ref IDREF #REQUIRED
+	usage CDATA #IMPLIED
+>
+<!ELEMENT distribution (binomial | geometric | uniform | poisson | pascal | UD_distribution )>
+<!ELEMENT binomial EMPTY>
+<!ATTLIST binomial
+	N CDATA #REQUIRED
+	P CDATA #REQUIRED
+>
+<!ELEMENT geometric EMPTY>
+<!ATTLIST geometric
+	P CDATA #REQUIRED
+>
+<!ELEMENT poisson EMPTY>
+<!ATTLIST poisson
+	lambda CDATA #REQUIRED
+>
+<!ELEMENT uniform EMPTY>
+<!ATTLIST uniform
+	min CDATA #REQUIRED
+	max CDATA #REQUIRED
+>
+<!ELEMENT pascal EMPTY>
+<!ATTLIST pascal
+	r CDATA #REQUIRED
+	p CDATA #REQUIRED
+>
+<!ELEMENT UD_distribution (UD_data+)>
+<!ELEMENT UD_data EMPTY>
+<!ATTLIST UD_data
+	X CDATA #REQUIRED
+	Y CDATA #REQUIRED
+>
+<!ELEMENT time EMPTY>
+<!ATTLIST time
+	EFT CDATA #REQUIRED
+	LFT CDATA #REQUIRED
+>
+
+<!ELEMENT action EMPTY>
+<!ATTLIST action 
+        object3d CDATA   #REQUIRED 
+        objectid CDATA   #REQUIRED 
+        action3d CDATA   #REQUIRED
+        undoaction CDATA #REQUIRED
+>
+
+<!-- arco -->
+<!ELEMENT arc (property*)>
+<!ATTLIST arc
+	id ID #REQUIRED
+	id_arc CDATA #REQUIRED
+	type (pre | post | inib) "pre"
+	weight CDATA #IMPLIED
+	source IDREF #REQUIRED
+	destination IDREF #REQUIRED
+>
+<!ELEMENT property EMPTY>
+<!ATTLIST property
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED
+>
+<!-- GRAFICAL DATA -->
+<!ELEMENT documento (blocco*)>
+<!ATTLIST documento
+	tipo (documento | template) "documento"
+>
+<!ELEMENT blocco (place_draw*, transition_draw*, link*, label*)>
+<!-- place -->
+<!ELEMENT place_draw (coordinate, boxnome)>
+<!ATTLIST place_draw
+	id CDATA #REQUIRED
+>
+<!-- label -->
+<!ELEMENT label (testo, coordinate)>
+<!ATTLIST label
+	id CDATA #REQUIRED
+>
+<!-- transition -->
+<!ELEMENT transition_draw (coordinate, boxnome, boxtempo, boxrisorse)>
+<!ATTLIST transition_draw
+	id CDATA #REQUIRED
+	direzione CDATA #REQUIRED
+>
+<!ELEMENT boxtempo (coordinate)>
+<!ELEMENT boxrisorse (coordinate)>
+<!-- link -->
+<!ELEMENT link (sorgente, destinazione, nodo*)>
+<!ATTLIST link
+	id CDATA #REQUIRED
+>
+<!ELEMENT destinazione (#PCDATA)>
+<!ELEMENT sorgente (#PCDATA)>
+<!-- id della transition o della posto -->
+<!ELEMENT nodo (coordinate)>
+<!-- coordinate -->
+<!ELEMENT coordinate EMPTY>
+<!ATTLIST coordinate
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+>
+<!-- boxnome -->
+<!ELEMENT boxnome (testo, coordinate)>
+<!ELEMENT testo (#PCDATA)>

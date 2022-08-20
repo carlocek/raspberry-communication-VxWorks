@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ORIS - framework for editing/analysis/simulation of Time Petri Nets
+developed by Dipartimento di Sistemi e Informatica - University of
+Firenze
+- Italy
+G.Bucci, A.Fedeli, E.Vicario
+{bucci, fedeli, vicario}@dsi.unifi.it
+Original DTD file improved by F.Poli
+poli@dsi.unifi.it
+-->
+
+<!-- Grafo -->
+<!ELEMENT Grafo (not_explored_state+,class+)>
+<!ATTLIST Grafo
+	name CDATA #REQUIRED 
+	level CDATA #REQUIRED 
+	state CDATA #REQUIRED
+>
+
+<!-- Not explored states -->
+<!ELEMENT not_explored_state (nes*)>
+
+<!-- Not explored state -->
+<!ELEMENT nes EMPTY>	
+<!ATTLIST nes
+	id CDATA #REQUIRED
+>
+
+<!-- Class -->
+<!ELEMENT class (place*,transx*,binding*,zone*)>
+<!ATTLIST class
+	level CDATA #REQUIRED
+	id CDATA #REQUIRED
+>
+
+<!-- Place -->
+<!ELEMENT place EMPTY>	
+<!ATTLIST place
+	id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	tokens CDATA #REQUIRED
+>
+
+<!-- Transx -->
+<!ELEMENT transx EMPTY>	
+<!ATTLIST transx
+	id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	Progr (Yes|No) "Yes"
+	New (Yes|No) "Yes"
+	EFT CDATA #REQUIRED
+	LFT CDATA #REQUIRED 	
+	Fir (Yes|No) #REQUIRED
+	class_dest CDATA #IMPLIED
+	probability CDATA #IMPLIED
+>
+
+<!-- Binding -->
+<!ELEMENT binding EMPTY>	
+<!ATTLIST binding
+	idtrans1 CDATA #REQUIRED
+	idtrans2 CDATA #REQUIRED
+	EFT CDATA #REQUIRED 
+	LFT CDATA #REQUIRED
+>
+
+<!-- Zone -->
+<!ELEMENT zone (constraint+,cross_constraint*)>
+<!ATTLIST zone
+	function CDATA #REQUIRED
+>
+
+<!-- Zone Constraint -->
+<!ELEMENT constraint EMPTY>
+<!ATTLIST constraint
+	idtrans CDATA #REQUIRED
+	A CDATA #REQUIRED
+	B CDATA #REQUIRED
+>
+
+<!-- Zone Cross Constraint -->
+<!ELEMENT cross_constraint EMPTY>
+<!ATTLIST cross_constraint
+	idtrans1 CDATA #REQUIRED
+	idtrans2 CDATA #REQUIRED
+	A CDATA #REQUIRED
+	B CDATA #REQUIRED
+>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRACEEXTRACTOR version="1">
+  <INPUT type="3" path="/TCAnalyzer/output.xml" date="1655625938077" />
+  <OUTPUT type="16" path="/output_t0_t3_good.txt" date="1655625965647" />
+  <OUTPUT type="16" path="/output_t4_t7_good.txt" date="1655625976853" />
+  <OUTPUT type="16" path="/output_t8_t12_good.txt" date="1655625984053" />
+  <PROPERTY name="extractor.files.false" value="false" />
+  <PROPERTY name="extractor.trans.end" value="t12" />
+  <PROPERTY name="extractor.files.approx.name" value="output_t8_t12_approx.txt" />
+  <PROPERTY name="extractor.files.approx" value="false" />
+  <PROPERTY name="extractor.files.good" value="true" />
+  <PROPERTY name="extractor.files.stats" value="false" />
+  <PROPERTY name="extractor.files.false.name" value="output_t8_t12_false.txt" />
+  <PROPERTY name="extractor.files.good.name" value="output_t8_t12_good.txt" />
+  <PROPERTY name="extractor.trans.start" value="t8" />
+  <PROPERTY name="extractor.files.stats.name" value="output_t8_t12_stats.txt" />
+</TRACEEXTRACTOR>
+
