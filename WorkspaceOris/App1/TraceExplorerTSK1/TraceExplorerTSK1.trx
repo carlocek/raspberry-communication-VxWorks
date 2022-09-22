@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TRACEEXPLORER version="1">
-  <INPUT type="16" path="/TraceExtractor/output_t0_t6_good.txt" date="1655589538513" />
-  <OUTPUT type="16" path="/TraceExplorerTSK1-custom.trc" date="1655592819791" />
-  <PROPERTY name="graph.path" value="/TCAnalyzer/output.xml" />
-</TRACEEXPLORER>
-

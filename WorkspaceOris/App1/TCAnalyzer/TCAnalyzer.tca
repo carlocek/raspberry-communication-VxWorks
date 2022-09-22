@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TCANALYZER2 version="1">
-  <INPUT type="1" path="/App1 PetriEditor/App1 PetriEditor.pef.xml" date="1655589059795" />
-  <OUTPUT type="333" path="/default.config" date="1655589163634" />
-  <OUTPUT type="3" path="/output.xml" date="1655589165867" />
-  <OUTPUT type="9823" path="/output.graphml" date="1655589165867" />
-  <OUTPUT type="9823" path="/output.txt" date="1655589165867" />
-</TCANALYZER2>
-
