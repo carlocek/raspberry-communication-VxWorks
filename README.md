@@ -1,7 +1,7 @@
-# Communication between two rpi using VxWorks
+# Communication between two Raspberry Pi using VxWorks
 
 ## Brief description
-This project was developed during the first year of the master degree in Computer Science Engineering together with Leonardo Di Iorio.
+This project was developed during the first year of the master degree in Computer Science Engineering together with Leonardo Di Iorio for the exam in Software Engineering for Embedded Systems.
 
 The aim of the project was to develop a system permitting the exchange of data between two Raspberry Pi 4B:
 
